@@ -1,0 +1,30 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+body{
+    background-image: url(img/loginback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+
+ background-color: rgba(124, 76, 76, 0.3);
+
+background: rgb(121, 88, 151) transparent;
+
+border-radius: 10px;
+border: 200px;
+box-shadow: 0 0 10px rgba(36, 153, 13, 0.6);
+}
